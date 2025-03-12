@@ -15,17 +15,17 @@ public static void main(String[] args) {
     System.out.println( "la tua password è " + nome + "-" + cognome + "-" +  colore + "-" + somma);
 // creazione password con input utente
 Scanner in = new Scanner(System.in); 
-System.out.print("inserisci il nome");
- String nomeUtente = in.next();
- System.out.print("inserisci il cognome");
- String cognomeUtente = in.next();
- System.out.print("inserisci il colore preferito");
- String coloreUtente = in.next();
- System.out.print("inserisci il giorno di nascita");
+System.out.print("inserisci il nome ");
+ String nomeUtente = in.nextLine();
+ System.out.print("inserisci il cognome ");
+ String cognomeUtente = in.nextLine();
+ System.out.print("inserisci il colore preferito ");
+ String coloreUtente = in.nextLine();
+ System.out.print("inserisci il giorno di nascita ");
  int giornoUtente = in.nextInt();
- System.out.print("inserisci il mese dinascita");
+ System.out.print("inserisci il mese dinascita ");
  int meseUtente = in.nextInt();
- System.out.print("inserisci anno di nascita");
+ System.out.print("inserisci anno di nascita ");
  int annoUtente = in.nextInt();
 
  int sommaUtente = giornoUtente + meseUtente + annoUtente;
